@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+}
+
+/* header styles */
+
+header{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: right;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+header a:link{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+#Sign-in{
+    border-radius: 2px;
+    width: 80px;
+    height: 35px;
+    background-color: #2289d5;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 600;
+    margin: 0px 5px 5px 5px;
+    border: 1px solid #cac9c9;
+}
+
+/* content styles */
+#content{
+    
+    height: 300px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+#logo{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+}
+
+#search {
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#search-box {
+    width: 600px;
+    height: 25px;
+    
+}
+
+#search-buttons{
+    text-align: center;
+}
+
+.button{
+    border-radius: 3px;
+    width: 140px;
+    height: 40px;
+    background-color: #f3f3f3;
+    color: #686363;
+    font-size: 0.80em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-right: 5px;
+    border: 0px solid white;
+}
+
+.button.button:hover{
+    border: 1px solid #a6a6a6;
+    cursor: pointer;
+}
+
+/* footer styles */
+
+footer{
+    margin-top: 480px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    border-top:1px solid #d1d1d1 ;
+    text-align: right;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+footer ul li{
+    display: inline-block;
+    color: black;
+    margin: 10px;
+}
+
+#footer-left{
+    float: left;
+    color: black;
+}
+
+#footer-left li a{
+    text-decoration: none;
+}
+
+#footer-right{
+    float: right;
+    margin-right: 30px;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: #787878;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
+footer  a:hover{
+    text-decoration: underline !important;
+}
